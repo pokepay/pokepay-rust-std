@@ -48,4 +48,4 @@ jobs:
         rustc --version
 
     - name: Test
-      run: cargo test --features std
+      run: cargo test --features std,uuid

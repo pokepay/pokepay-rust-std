@@ -10,6 +10,8 @@ extern crate std;
 pub mod fmt;
 pub mod time;
 pub mod any;
+#[cfg(feature = "uuid")]
+pub mod uuid;
 
 #[macro_export]
 ///Extended `env!` macro that allows specifying default value

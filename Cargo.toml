@@ -4,7 +4,15 @@ version = "0.1.0"
 edition = "2018"
 publish = false
 
-[dependencies]
+[dependencies.lolid]
+version = "1.0.6"
+features = ["std", "serde", "osrng"]
+optional = true
+
+[dependencies.mac_address]
+version = "1"
+optional = true
 
 [features]
 std = []
+uuid = ["lolid", "mac_address"]
