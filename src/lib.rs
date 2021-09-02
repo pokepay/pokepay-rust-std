@@ -10,6 +10,7 @@ extern crate std;
 pub mod fmt;
 pub mod time;
 pub mod any;
+pub mod hint;
 #[cfg(feature = "uuid")]
 pub mod uuid;
 
