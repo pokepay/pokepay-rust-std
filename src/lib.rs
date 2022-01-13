@@ -13,6 +13,8 @@ pub mod any;
 pub mod hint;
 #[cfg(feature = "uuid")]
 pub mod uuid;
+#[cfg(feature = "std")]
+pub mod string;
 
 #[macro_export]
 ///Extended `env!` macro that allows specifying default value
